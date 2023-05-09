@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg {
+    background-color: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+.button {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.row input {
+    margin: 0;
+    padding: 10px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+#merge {
+    width: 112px;
+}
+
+#per {
+    width: 50px;
+}
